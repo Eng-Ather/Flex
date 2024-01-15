@@ -1,0 +1,35 @@
+
+/* body{background-image:url(backimg.jpeg);background-repeat:no-repeat; background-size:100% 1000px; } */
+
+
+
+nav{                    /*Gernal styling in navigation bar */
+     background-image:linear-gradient(to left, rgba(148, 207, 135,0.2), rgba(148, 207, 135,1));
+     min-height:50px;  padding: 0px 30px 0px 20px;
+                        
+                        /*Flex properties in Navigation bar*/
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+     flex-wrap:wrap;
+     }
+
+                        /*Styling Applied in Nav bar child*/
+i,.n2,pre{display: flex; color: #6e6ee7;  font-size:130%; flex-wrap:wrap; justify-content: space-around;}
+
+
+a:link {text-decoration: none;}  /*for hidding bydefault under under link*/
+
+
+/*Styling in Parent box whish is hidden*/
+.parent{width: 600;   min-height: 300px;   display:flex;     justify-content:space-around; flex-wrap:wrap;}
+
+
+/*for child div (picture box)*/
+.box{width:200px;     height:250px;       border: 2px solid orangered;  margin-top:20px;}
+
+
+img { width: 180px;    height: 150px;      padding: 10px;}
+
+
+h3{ text-align: center;}
